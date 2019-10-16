@@ -7,6 +7,7 @@ import guitarSim from "../Images/guitarSim.png";
 import calculator from "../Images/calculator.png";
 import memeGen from "../Images/memeGen.png";
 import iTunesSearch from "../Images/iTunesSearch.png";
+import kaliedoScope from "../Images/kaliedoScope.png";
 
 
 export default class MyPortfolio extends React.Component{
@@ -19,12 +20,12 @@ export default class MyPortfolio extends React.Component{
 			<div className="portItems"><li>
 				<h3 className="projectHead">Mythical Hangman</h3>
 				<p className="projectDes">Hangman with a mythical twist!</p>
-				<a href="https://repl.it/@bluntjay/MythicalHangman">
+				<a href="https://www.pythonanywhere.com/user/bluntJay/files/home/bluntJay/HangmanMK2.py?edit">
 				<img alt="projectImage" className="portImg" src={MythHang}/></a></li>
 			</div>
 			<div className="portItems"><li>
 				<h3 className="projectHead">Rock, Paper, Scissor,<br/> Lizard, Spock!</h3>
-				<p className="projectDes">A twist on the classic Rock, Paper, Scissor</p>
+				<p className="projectDes">A twist on the classic game</p>
 				<a href="https://salty-retreat-42685.herokuapp.com/">
 				<img alt="projectImage" className="portImg" src={RPSLS}/></a></li>
 			</div>
@@ -57,6 +58,12 @@ export default class MyPortfolio extends React.Component{
 				<p className="projectDes">An App to make your own memes</p>
 				<a href="https://bluntjay.github.io/memeGenerator/">
 				<img alt="projectImage" className="portImg" src={memeGen}/></a></li>
+			</div>
+				<div className="portItems"><li>
+				<h3 className="projectHead">Kaliedoscope</h3>
+				<p className="projectDes">Turn images into a Kaliedoscope!</p>
+				<a href="https://bluntjay.github.io/myKaleidoscope/">
+				<img alt="projectImage" className="portImg" src={kaliedoScope}/></a></li>
 			</div>
 			{/* 	<div className="portItems"><li> */}
 			{/* 	<h3 className="projectHead">iTunes Search</h3> */}

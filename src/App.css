@@ -119,6 +119,7 @@ h2{
 }
 #listPort{
   list-style: none;
+  margin-left: 35px;
 }
 #about{
   background-color: #f5f5ef;
