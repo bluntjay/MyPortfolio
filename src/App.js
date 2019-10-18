@@ -15,7 +15,7 @@ function App() {
 
 	if(isLanding) {
 		setTimeout(() => setIsLanding(false), 1800)
-		return <LandingPage />
+		return <LandingPage/>
 	}
   return (
     <div>

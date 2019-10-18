@@ -33,19 +33,17 @@ class MyInfo extends React.Component{
       <div class="parent">
       <div id="info">
     {/*Inserts image of me*/}
-      <img src={me} alt="pic-of-me"/>
+      <img id="myPic" src={me} alt="pic-of-me"/>
     {/*Writes infomation from the object into HTML*/}
       <p className="myInfo" id="myName">{person.name}</p>
       {/* <p className="myInfo" id="myOcu">{person.ocu}</p> */}
-      <p className="myInfo"><u className="refText">Birth Date:</u> {person.dob}</p>
-      <p className="myInfo"><u className="refText">Address:</u> {person.address}</p>
-      <p className="myInfo"><u className="refText">High School:</u> {person.highSchool}</p>
-      <p className="myInfo"><u className="refText">Tertiary Education:</u> {person.college}</p>
-      <p className="myInfo"><u className="refText">Cell:</u> {contact.cell}</p>
-      <p className="myInfo"><u className="refText">Telephone:</u> {contact.tele} </p>
-      <p className="myInfo"><u className="refText">E-mail:</u> {contact.email}</p>
-      <p className="myInfo"><u className="refText">GitHub:</u> <a href="https://github.com/bluntjay">{contact.github}</a></p>
-      <p className="myInfo"><u className="refText">LinkedIn:</u> <a href="https://www.linkedin.com/in/alex-joshua-80817018b/">{contact.linkedin}</a></p>
+      <p className="myInfo"><u className="refText">Birth Date:</u>  {person.dob}</p>
+      <p className="myInfo"><u className="refText">Address:</u>  {person.address}</p>
+      <p className="myInfo"><u className="refText">High School:</u>  {person.highSchool}</p>
+      <p className="myInfo"><u className="refText">Tertiary Education:</u>  {person.college}</p>
+      <p className="myInfo"><u className="refText">E-mail:</u>  {contact.email}</p>
+      <p className="myInfo"><u className="refText">GitHub:</u>  <a target="_blank" href="https://github.com/bluntjay">{contact.github}</a></p>
+      <p className="myInfo"><u className="refText">LinkedIn:</u>  <a target="_blank" href="https://www.linkedin.com/in/alex-joshua-80817018b/">{contact.linkedin}</a></p>
       </div>
     {/*Inserts my component from its import*/}
       <App2 />

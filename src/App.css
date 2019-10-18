@@ -134,12 +134,14 @@ h2{
 }
 .portItems{
   background-color: #f5f5ef;
-  display: inline-flex;
+  display: inline-block;
+  flex-wrap: wrap;
   text-align: center;
   margin-right: 10%;
   width: auto;
   height: auto;
   margin: 10px;
+  position: initial;
   border: solid 2px #ebebe0;
   border-radius: 12px;
   padding: 5px 5px;
@@ -152,11 +154,7 @@ h2{
   border-radius: 12px;
   float: auto;
 }
-/*
-.skillsDiv{
-  float: center;
-  border: 2px dotted black;
-}*/
+
 .proSkills{
   background-color: #ffffff;
   display: inline-flex;
@@ -288,16 +286,17 @@ h2{
 
 /*Sizes the div for my personal infomation*/
 #info{
-  width: 1200px;
+  width: 900px;
   height: 100%;
   background-color: #f5f5ef;
   border: solid 2px #ebebe0;
   border-radius: 12px;
   padding: 5px 5px;
-  margin-right: 10px;
-  margin-left: 2px;
+  margin-right: 15px;
+  margin-left: 20px;
   box-shadow: 2px 2px 3px 3px #2e2e1f;
   opacity: 0.98;
+  text-align: center;
 }
 /*Styles my name in the personal infomation div*/
 #myName{
@@ -317,6 +316,9 @@ h2{
 /*Changes sub-heading font in my peronal infomation div*/
 .refText{
   font-family: impact;
+  float: left;
+  font-size: 16px;
+
 }
 /*Changes content font in my peronal infomation div*/
 .myInfo {
@@ -334,7 +336,7 @@ h2{
  flex-direction: column;
  flex-wrap: wrap;
  height: auto;
- margin-right: 80px;
+ margin-right: 60px;
   background-color: #f5f5ef;
   border: solid 2px #ebebe0;
   border-radius: 12px;
@@ -366,21 +368,24 @@ h2{
   flex: 1;
 }
 img{
-  width: 90% ;
-  height:250px ;
-  border-radius: 45%;
+  width: 250px ;
+  height: 250px ;
+  border-radius: 50%;
   text-align: center;
-  opacity: 1;
 }
-#hobbList{
+.hobbList{
   list-style: none;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  flex-direction: column;
-
+  flex-direction: row;
 }
 .eachHobb{
-
+  margin-right: 30px;
   margin-bottom: 20px;
+
 }
+
+.modButt{
+  margin-top: 10px;
+}
+
