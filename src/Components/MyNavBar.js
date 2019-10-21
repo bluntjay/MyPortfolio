@@ -5,19 +5,38 @@ import React from 'react';
 export default class MyNavBar extends React.Component {
     constructor(props){
         super(props)
+        this.handleClick = this.handleClick.bind(this);
+        this.handleOutsideClick = this.handleOutsideClick.bind(this);
         this.state = {
-            emptyState: true
+            emptyState: true,
+            navVisible: true
         }
     }
         changeTheState = () =>{
             this.setState({
                 ...this.state,
                 emptyState: false,
-                fullState: true
+                fullState: true,
 
             });
         }
+        handleClick(){
+            if (!this.state.navVisible){
+                document.addEventListener("click", this.handleOutsideClick, false);
+            }else{
+                document.removeEventListener("click", this.handleOutsideClick, false);
+            }
+            this.setState(prevState => ({
+       navVisible: !prevState.navVisible,
+    }));
+        }
 
+        handleOutsideClick(e){
+            if(this.node.contains(e.target)){
+                return;
+            }
+            this.handleClick();
+        }
 
     render() {
         return (

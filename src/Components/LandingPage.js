@@ -5,7 +5,11 @@ export default class LandingPage extends React.Component {
     	
         return (
             <div >
+            	<div className="pyro">
+            		<div className="before"></div>
+            		<div className="after"></div>
 				<h1 id="introText">Hello World, I'm Alex Joshua!</h1>
+				</div>
 				</div>
         )
     }

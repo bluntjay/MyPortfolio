@@ -148,6 +148,7 @@ h2{
   box-shadow: 3px 3px 5px 6px #2e2e1f;
   opacity: 0.97;
 }
+
 .portImg{
   width: 250px;
   height: 200px;
@@ -228,17 +229,23 @@ h2{
 #contactHead{
   float: center;
   text-align: center;
+  text-shadow: 2px 3px #9d9da8;
 }
-
+.liCont{
+  margin-right:15px; 
+}
 .contactLinks{
-  padding: 0px 40px;
+  padding: 0px 55px;
   color: #01000f;
   display: inline-flex;
-  flex: wrap;
   font-size: 20px;
   text-align: center;
-
+  text-decoration: none;
 }
+.contactLinks: hover{
+  margin-top: 20px;
+}
+
 .contactImage{
   height: 25px;
   width: 25px;
@@ -322,8 +329,8 @@ h2{
 }
 /*Changes content font in my peronal infomation div*/
 .myInfo {
-  margin :0;
-  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+  text-align: right;
+  font-family: Lucida Sans Unicode, Lucida Grande, serif;
 }
 /*Changes the heading style for my Summary/Intro*/
 #aboutMe{
@@ -375,17 +382,17 @@ img{
 }
 .hobbList{
   list-style: none;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   flex-direction: row;
+  margin: 0 auto;
 }
 .eachHobb{
-  margin-right: 30px;
+  text-align: left;
+  margin-right: 20px;
   margin-bottom: 20px;
-
 }
 
 .modButt{
   margin-top: 10px;
 }
-

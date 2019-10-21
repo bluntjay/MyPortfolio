@@ -7,13 +7,12 @@ export default class MyContact extends React.Component{
 			<div id="footerStyle">
 			<footer id="contact">
 	<ul id="footerList">
-		<h2 className="sectionHead">Contact Me</h2>
+		<h2 className="contactHead">Contact Me</h2>
 		<div className="links">
-		<a target="_target" href="https://www.linkedin.com/in/alex-joshua-80817018b/"><li className="contactLinks">LinkedIn</li><i className="fab fa-linkedin-in fa-3x"></i></a>
-		<a target="_target" href="https://github.com/bluntjay"><li className="contactLinks">GitHub</li><i className="fab fa-github fa-3x"></i></a>
-		<a target="_target" href="https://twitter.com/westaydead"><li className="contactLinks">Twitter</li><i className="fab fa-twitter fa-3x"></i></a>
-		<a target="_target" href="https://aboutme.google.com"><li className="contactLinks">Google+</li><i className="fab fa-google-plus-g fa-3x"></i></a>
-		{/* <a href="https://repl.it/@bluntjay"><li className="contactLinks">Repl.It</li></a> */}
+		<a className="contactLinks" target="_target" href="https://www.linkedin.com/in/alex-joshua-80817018b/"><li className="liCont" >LinkedIn</li><i className="fab fa-linkedin-in fa-2x"></i></a>
+		<a className="contactLinks" target="_target" href="https://github.com/bluntjay"><li className="liCont" >GitHub</li><i className="fab fa-github fa-2x"></i></a>
+		<a className="contactLinks" target="_target" href="https://twitter.com/westaydead"><li className="liCont" >Twitter</li><i className="fab fa-twitter fa-2x"></i></a>
+		<a className="contactLinks" target="_target" href="https://aboutme.google.com"><li className="liCont" >Google+</li><i className="fab fa-google-plus-g fa-2x"></i></a>
 		</div>
 	</ul>
 
