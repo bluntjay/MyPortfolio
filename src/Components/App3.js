@@ -30,14 +30,13 @@ export default class MyInts extends React.Component {
 				<li className="eachHobb">Photography 	<i className="fas fa-camera-retro fa-3x"></i></li>
 				<li className="eachHobb">Art 	<i className="fas fa-paint-brush fa-3x"></i></li>
 				<li className="eachHobb">Painting 	<i className="fas fa-palette fa-3x"></i></li>
-				<ul className="hobbList">
 				<li className="eachHobb">Reading 	<i className="fas fa-book-open fa-3x"></i></li>
 				<li className="eachHobb">Drawing		<i className="fas fa-pen fa-3x"></i></li>
 				<li className="eachHobb">Guitar 	<i className="fas fa-guitar fa-3x"></i></li>
 				<li className="eachHobb">Hiking		<i className="far fa-compass fa-3x fa-spin"></i></li>
 				</ul>
-		</ul>
-			</div>
+			
+				</div>
 			</div>
         )
     }

@@ -387,12 +387,24 @@ img{
   flex-direction: row;
   margin: 0 auto;
 }
+
 .eachHobb{
-  text-align: left;
-  margin-right: 20px;
-  margin-bottom: 20px;
+margin-right: 60px;
+margin-top: 30px;
+margin-bottom: 15px;
 }
 
 .modButt{
   margin-top: 10px;
+}
+.eachJob{
+  display: table-cell;
+  vertical-align: middle;
+  min-width: 15em;
+  margin-top: 15px;
+
+}
+.jobDiv{
+  margin-bottom: 15px;
+
 }

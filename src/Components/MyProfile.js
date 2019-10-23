@@ -17,7 +17,7 @@ class MyInfo extends React.Component{
       <img src={me} alt="pic-of-me"/>
     {/*Writes infomation from the object into HTML*/}
       <p className="myInfo" id="myName">Alex Joshua</p>
-      <p className="myInfo" id="myOcu">Web Developer</p>
+      <p className="myInfo" id="myOcu">Digital Designer <br/> Web Developer</p>
       <u className="refText">Birth Date:</u><p className="myInfo">05 January 1999</p>
       <u className="refText">Address:</u><p className="myInfo">68 5th Avenue, Belgravia Estate, Athlone</p>
       <u className="refText">High School:</u><p className="myInfo">Belgravia Secondary School</p>
