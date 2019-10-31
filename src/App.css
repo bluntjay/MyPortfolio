@@ -48,82 +48,40 @@ h2{
   font-size: 50px;
   text-shadow: 2px 2px 2px #8a8a5c;
 }
-#mySidebar{
-  height: 100%;
-  width: 0;
-  position: absolute; 
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #08050a;
-  overflow-x: visible;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-.sideBar a:hover {
-  color: #f1f1f1;
-}
-.sideBar, .closeNav {
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  color: #ddcae8;
-}
-.openNav {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  width: 100px;
-}
-#mainNav {
-  transition: margin-left .5s;
-  padding: 16px 16px 16px 0;
-  text-align: left;
-}
-.openNav:hover {
-  background-color: #444;
-}
 
-.sideBar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
 
-#mySide{
-  background: linear-gradient(#ebebe0, #b8b894, #2e2e1f,#0f0f0a 20%);
-  margin: 0;
-  width: 100%;
-  border-radius: 15px;
-  text-align: center;
-  float: center;
-}
 .listStyle{
   list-style: none;
- 
+
+  display: flex;
+  padding-left: 45px;
+  background-color: black;
+  opacity: 0.93;
+  font-color: white;
 }
 
-.naviList{
-  padding: 30px;
-  font-size: 30px;
-  text-align: center;
-  color: #ded8e3;
-  display:inline-flex;
-
+.naviWrap{
+  margin: 0 auto;
+  width: auto ;
+  overflow: hidden;
+  position: initial;
 }
-#listPort{
-  list-style: none;
-  margin-left: 35px;
+
+.navi{  
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  text-overflow: all;
+  height: auto;
+  float: center;
+  padding: 10px;
+
 }
 #about{
   background-color: #f5f5ef;
-  margin: 10px;
+  height: auto;
+  position: relative;
+  margin-top: 10%;
   border: solid 2px #ebebe0;
   border-radius: 12px;
   padding: 5px 5px;
@@ -131,6 +89,28 @@ h2{
   box-shadow: 2px 2px 3px 3px #2e2e1f;
   opacity: 0.9;
 
+}
+.naviList{
+  margin-right: 55px;
+  margin-left: 25px;
+  color: red;
+
+}
+#quailList{
+  list-style: none;
+}
+
+.naviList{
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+
+
+}
+#listPort{
+  list-style: none;
+  margin-left: 35px;
 }
 .portItems{
   background-color: #f5f5ef;
@@ -242,9 +222,7 @@ h2{
   text-align: center;
   text-decoration: none;
 }
-.contactLinks:hover{
-  margin-top: 20px;
-}
+
 
 .contactImage{
   height: 25px;
@@ -286,6 +264,7 @@ h2{
   display: flex;
 }
 .theSkills{
+  list-style: none;
   color: black;
   text-decoration-color: white;
   font-family: "Arial Black", Gadget, sans-serif;
@@ -379,6 +358,7 @@ img{
   height: 250px ;
   border-radius: 50%;
   text-align: center;
+  object-fit: cover;
 }
 .hobbList{
   list-style: none;
@@ -407,4 +387,18 @@ margin-bottom: 15px;
 .jobDiv{
   margin-bottom: 15px;
 
+}
+.demoButt{
+  border-radius: 9.5px;
+  height:  35px;
+  margin-top: 5px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.demoButt:hover{
+  background-color: #0069d9;
+  border-color: #0069d9;
+ 
 }
