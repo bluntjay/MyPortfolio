@@ -48,6 +48,7 @@ h2{
   font-size: 50px;
   text-shadow: 2px 2px 2px #8a8a5c;
 }
+<<<<<<< HEAD
 
 .listStyle{
   list-style: none;
@@ -61,6 +62,58 @@ h2{
   position: fixed;
   top: 0;
   width: 100%;
+=======
+
+
+.listStyle{
+  list-style: none;
+
+  display: flex;
+  padding-left: 45px;
+  background-color: black;
+  opacity: 0.93;
+  font-color: white;
+}
+
+.naviWrap{
+  margin: 0 auto;
+  width: auto ;
+  overflow: hidden;
+  position: initial;
+}
+
+.navi{  
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  text-overflow: all;
+  height: auto;
+  float: center;
+  padding: 10px;
+
+}
+#about{
+  background-color: #f5f5ef;
+  height: auto;
+  position: relative;
+  margin-top: 10%;
+  border: solid 2px #ebebe0;
+  border-radius: 12px;
+  padding: 5px 5px;
+  text-align: center;
+  box-shadow: 2px 2px 3px 3px #2e2e1f;
+  opacity: 0.9;
+
+}
+.naviList{
+  margin-right: 55px;
+  margin-left: 25px;
+  color: red;
+
+}
+#quailList{
+  list-style: none;
+>>>>>>> d576d7f0f417821b950ce3558d0b3c0de2635871
 }
 
 .naviList{
@@ -68,14 +121,20 @@ h2{
   margin-left: 25px;
   font-size: 30px;
   text-align: center;
+<<<<<<< HEAD
   color: #ded8e3;
   display: inline-flex;
+=======
+  color: #fff;
+
+>>>>>>> d576d7f0f417821b950ce3558d0b3c0de2635871
 
 }
 #listPort{
   list-style: none;
   margin-left: 35px;
 }
+<<<<<<< HEAD
 #about{
   background-color: #f5f5ef;
   height: auto;
@@ -90,6 +149,8 @@ h2{
   opacity: 0.94;
 
 }
+=======
+>>>>>>> d576d7f0f417821b950ce3558d0b3c0de2635871
 .portItems{
   background-color: #f5f5ef;
   display: inline-block;
@@ -211,9 +272,13 @@ h2{
   
 
 }
+<<<<<<< HEAD
 #quailList{
   list-style: none;
 }
+=======
+
+>>>>>>> d576d7f0f417821b950ce3558d0b3c0de2635871
 
 .naviList{
   padding: 30px;
@@ -269,6 +334,7 @@ h2{
   display: flex;
 }
 .theSkills{
+  list-style: none;
   color: black;
   text-decoration-color: white;
   font-family: "Arial Black", Gadget, sans-serif;
@@ -362,6 +428,7 @@ img{
   height: 250px ;
   border-radius: 50%;
   text-align: center;
+  object-fit: cover;
 }
 .hobbList{
   list-style: none;
@@ -391,10 +458,26 @@ margin-bottom: 15px;
   margin-bottom: 15px;
 
 }
+<<<<<<< HEAD
 
 .demoButt{
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
   margin-top: 5px;
+=======
+.demoButt{
+  border-radius: 9.5px;
+  height:  35px;
+  margin-top: 5px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.demoButt:hover{
+  background-color: #0069d9;
+  border-color: #0069d9;
+ 
+>>>>>>> d576d7f0f417821b950ce3558d0b3c0de2635871
 }

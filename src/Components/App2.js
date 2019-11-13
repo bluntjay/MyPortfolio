@@ -9,9 +9,15 @@ export default class Summary extends React.Component{
 			<div>
 			
 				<div id="sum">
+<<<<<<< HEAD
       			{/*Inserts my components from their imports*/}
       			<App3 />
       			<App4 />
+=======
+
+				<App3/>	
+      			<App4/>
+>>>>>>> d576d7f0f417821b950ce3558d0b3c0de2635871
 				</div>
 			</div>
 
