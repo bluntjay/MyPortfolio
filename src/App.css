@@ -48,73 +48,28 @@ h2{
   font-size: 50px;
   text-shadow: 2px 2px 2px #8a8a5c;
 }
-#mySidebar{
-  height: 100%;
-  width: 0;
-  position: absolute; 
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #08050a;
-  overflow-x: visible;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-.sideBar a:hover {
-  color: #f1f1f1;
-}
-.sideBar, .closeNav {
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  color: #ddcae8;
-}
-.openNav {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  width: 100px;
-}
-#mainNav {
-  transition: margin-left .5s;
-  padding: 16px 16px 16px 0;
-  text-align: left;
-}
-.openNav:hover {
-  background-color: #444;
-}
 
-.sideBar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-#mySide{
-  background: linear-gradient(#ebebe0, #b8b894, #2e2e1f,#0f0f0a 20%);
-  margin: 0;
-  width: 100%;
-  border-radius: 15px;
-  text-align: center;
-  float: center;
-}
 .listStyle{
   list-style: none;
- 
+  display: flex;
+  padding-left: 45px;
+  background-color: #000;
+  z-index: 999;
+  opacity: .93;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .naviList{
-  padding: 30px;
+  margin-right: 55px;
+  margin-left: 25px;
   font-size: 30px;
   text-align: center;
   color: #ded8e3;
-  display:inline-flex;
+  display: inline-flex;
 
 }
 #listPort{
@@ -123,13 +78,16 @@ h2{
 }
 #about{
   background-color: #f5f5ef;
-  margin: 10px;
+  height: auto;
+  float: center;
+  position: relative;
+  margin-top: 10%;
   border: solid 2px #ebebe0;
   border-radius: 12px;
   padding: 5px 5px;
   text-align: center;
   box-shadow: 2px 2px 3px 3px #2e2e1f;
-  opacity: 0.9;
+  opacity: 0.94;
 
 }
 .portItems{
@@ -148,7 +106,12 @@ h2{
   box-shadow: 3px 3px 5px 6px #2e2e1f;
   opacity: 0.97;
 }
-
+.projList{
+  list-style: none;
+}
+#myProjects{
+  text-align: center;
+}
 .portImg{
   width: 250px;
   height: 200px;
@@ -196,7 +159,7 @@ h2{
 
 .projectDes{
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Gill Sans Extrabold, sans-serif;
   text-shadow: 4px 4px 8px  #4d4d33;
 
 }
@@ -241,10 +204,30 @@ h2{
   font-size: 20px;
   text-align: center;
   text-decoration: none;
+}listSty
+.naviList{
+  margin-right: 55px;
+  margin-left: 25px;
+  
+
 }
-.contactLinks:hover{
-  margin-top: 20px;
+#quailList{
+  list-style: none;
 }
+
+.naviList{
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+
+
+}
+#listPort{
+  list-style: none;
+  margin-left: 35px;
+}
+
 
 .contactImage{
   height: 25px;
@@ -407,4 +390,11 @@ margin-bottom: 15px;
 .jobDiv{
   margin-bottom: 15px;
 
+}
+
+.demoButt{
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  margin-top: 5px;
 }
