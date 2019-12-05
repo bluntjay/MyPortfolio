@@ -14,7 +14,7 @@ class MyInfo extends React.Component{
   render(){
     return(
       // Stuctures how my content will be displayed 
-      <div class="parent">
+      <div className="parent" className="container-fluid">
       <div id="info">
     {/*Inserts image of me*/}
       <img id="myPic" src={me} alt="pic-of-me"/>

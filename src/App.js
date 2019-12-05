@@ -18,7 +18,7 @@ function App() {
 		return <LandingPage/>
 	}
   return (
-    <div>
+    <div className="container-fluid">
       <MyNavBar/>
       <MyAbout/>
       <MyPortfolio/>

@@ -8,11 +8,11 @@ import App2 from "./App2.js"
 class MyInfo extends React.Component{
   render(){
     return(
-      <div>
+      <div  className="container-md">
       {/* Stuctures how my content will be displayed  */}
         <h2 className="sectionHead" id="myProfile">Profile</h2><br/>
-      <div className="parent">
-      <div id="info">
+      <div  className="container-md" className="parent">
+      <div  className="container-md" id="info">
     {/*Inserts image of me*/}
       <img src={me} alt="pic-of-me"/>
     {/*Writes infomation from the object into HTML*/}

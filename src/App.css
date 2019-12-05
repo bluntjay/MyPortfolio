@@ -5,12 +5,15 @@ body {
                     linear-gradient(-45deg, transparent 75%, #04031c 80%, transparent 0);
   background-size: 30px 30px, 30px 30px;
 }
+
 p{
   text-decoration: none;
 }
+
 h2{
   text-decoration: underline;
 }
+
 #introText{
   text-align: center;
   text-decoration: underline;
@@ -19,6 +22,7 @@ h2{
   font-size: 120px;
   padding-top: 15%;
 }
+
 .sectionHead{
   text-decoration: underline;
   text-align: center;
@@ -33,68 +37,82 @@ h2{
    font-family: Verdana, sans-serif;
   text-shadow: 2px 2px 2px #8a8a5c;
 }
+
 .sectionAbout{
   text-decoration: underline;
   font-family: Verdana, sans-serif;;
 }
+
 .sectionPort{
   text-decoration: underline;
   font-family: Verdana, sans-serif;
   text-shadow: 2px 2px 2px #8a8a5c;
 }
+
 .sectionContact{
   text-decoration: underline;
   font-family: Verdana, sans-serif;
   font-size: 50px;
   text-shadow: 2px 2px 2px #8a8a5c;
 }
-<<<<<<< HEAD
 
 .listStyle{
   list-style: none;
   display: flex;
-  padding-left: 45px;
+  flex-direction: row;
   background-color: #000;
   z-index: 999;
-  opacity: .93;
+  opacity: .98;
   overflow: hidden;
-  background-color: #333;
   position: fixed;
   top: 0;
-  width: 100%;
-=======
-
-
-.listStyle{
-  list-style: none;
-
-  display: flex;
-  padding-left: 45px;
-  background-color: black;
-  opacity: 0.93;
-  font-color: white;
+  width: 90%;
 }
 
+
+
 .naviWrap{
-  margin: 0 auto;
-  width: auto ;
+  width: auto;
   overflow: hidden;
   position: initial;
+  text-align: center;
 }
 
 .navi{  
   width: 100%;
   z-index: 999;
+  font-size: 30px;
+  text-align: center; 
+  background-color:  #000; 
+  color: #fff;
   position: fixed;
-  text-overflow: all;
   height: auto;
-  float: center;
-  padding: 10px;
-
+  padding: 15px 15px;
+  border-radius: 12px;
 }
+.navi a {
+  float: left;
+  display: block;
+  color: #077FFF;
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 125px;
+}
+
+.navi a:hover {
+  background: #077FFF;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
 #about{
   background-color: #f5f5ef;
   height: auto;
+  width: 80%;
+  margin-left: 9%;
   position: relative;
   margin-top: 10%;
   border: solid 2px #ebebe0;
@@ -103,54 +121,19 @@ h2{
   text-align: center;
   box-shadow: 2px 2px 3px 3px #2e2e1f;
   opacity: 0.9;
-
 }
-.naviList{
-  margin-right: 55px;
-  margin-left: 25px;
-  color: red;
 
-}
+
 #quailList{
   list-style: none;
->>>>>>> d576d7f0f417821b950ce3558d0b3c0de2635871
 }
 
-.naviList{
-  margin-right: 55px;
-  margin-left: 25px;
-  font-size: 30px;
-  text-align: center;
-<<<<<<< HEAD
-  color: #ded8e3;
-  display: inline-flex;
-=======
-  color: #fff;
-
->>>>>>> d576d7f0f417821b950ce3558d0b3c0de2635871
-
-}
 #listPort{
   list-style: none;
   margin-left: 35px;
 }
-<<<<<<< HEAD
-#about{
-  background-color: #f5f5ef;
-  height: auto;
-  float: center;
-  position: relative;
-  margin-top: 10%;
-  border: solid 2px #ebebe0;
-  border-radius: 12px;
-  padding: 5px 5px;
-  text-align: center;
-  box-shadow: 2px 2px 3px 3px #2e2e1f;
-  opacity: 0.94;
 
-}
-=======
->>>>>>> d576d7f0f417821b950ce3558d0b3c0de2635871
+
 .portItems{
   background-color: #f5f5ef;
   display: inline-block;
@@ -167,12 +150,16 @@ h2{
   box-shadow: 3px 3px 5px 6px #2e2e1f;
   opacity: 0.97;
 }
+
+
 .projList{
   list-style: none;
 }
+
 #myProjects{
   text-align: center;
 }
+
 .portImg{
   width: 250px;
   height: 200px;
@@ -180,6 +167,27 @@ h2{
   float: auto;
 }
 
+.demoButt{
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  margin-top: 5px;
+}
+
+.demoButt{
+  border-radius: 9.5px;
+  height:  35px;
+  margin-top: 5px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.demoButt:hover{
+  background-color: #0069d9;
+  border-color: #0069d9;
+}
 .proSkills{
   background-color: #ffffff;
   display: inline-flex;
@@ -200,9 +208,8 @@ h2{
   position: absolute;
 }
 .skillHead{
- 
   background-color: #2e2e1f;
-  height:auto;
+  height: auto;
   color: #fff;
   opacity: 0;
   transition: all .2s;
@@ -224,70 +231,13 @@ h2{
   text-shadow: 4px 4px 8px  #4d4d33;
 
 }
-#footer{
-  
-  height: 250px;
-  width: 600px;
-}
 
-#footerStyle{
-  background-color: #f5f5ef;
-  margin: 35px;
-  border: solid 2px #ebebe0;
-  border-radius: 12px;
-  padding: 5px 5px;
-  width: auto;
-  box-shadow: 3px 3px 5px 6px #2e2e1f;
-  opacity: 0.98;
-}
-#footerList {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#footerList .links{
-  display: flex;
-  flex: wrap;
-  list-style: none;
-}
-#contactHead{
-  float: center;
-  text-align: center;
-  text-shadow: 2px 3px #9d9da8;
-}
-.liCont{
-  margin-right:15px; 
-}
-.contactLinks{
-  padding: 0px 55px;
-  color: #01000f;
-  display: inline-flex;
-  font-size: 20px;
-  text-align: center;
-  text-decoration: none;
-}listSty
-.naviList{
-  margin-right: 55px;
-  margin-left: 25px;
-  
-
-}
-<<<<<<< HEAD
 #quailList{
   list-style: none;
 }
-=======
-
->>>>>>> d576d7f0f417821b950ce3558d0b3c0de2635871
-
-.naviList{
-  padding: 30px;
-  font-size: 30px;
-  text-align: center;
-  color: #fff;
 
 
-}
+
 #listPort{
   list-style: none;
   margin-left: 35px;
@@ -299,11 +249,13 @@ h2{
   width: 25px;
   border-radius: 50%;
 }
+
 .contactIcon{
   width: 80px;
   height: 80px;
   border-radius: 50%;
 }
+
 .projectHead{
   text-decoration: underline;
   text-align: center;
@@ -315,6 +267,7 @@ h2{
   height: 270px;
   border-radius: 47%;
 }
+
 #navPic{
   float: center;
   width: 90px;
@@ -322,6 +275,7 @@ h2{
   border-radius: 50%;
   margin-left: 40%;
 }
+
 /*Styles the infomation sheet that gets rendered*/
 #con{
   float: right;
@@ -330,9 +284,11 @@ h2{
   border-radius: 12px;
   text-align: center;
 }
+
 .parent {
   display: flex;
 }
+
 .theSkills{
   list-style: none;
   color: black;
@@ -452,32 +408,100 @@ margin-bottom: 15px;
   vertical-align: middle;
   min-width: 15em;
   margin-top: 15px;
-
 }
+
 .jobDiv{
   margin-bottom: 15px;
+}
 
+.links{
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
 }
-<<<<<<< HEAD
 
-.demoButt{
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
-  margin-top: 5px;
-=======
-.demoButt{
-  border-radius: 9.5px;
-  height:  35px;
-  margin-top: 5px;
-  border: none;
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+#footer{
+  height: auto;
+  width: auto;
 }
-.demoButt:hover{
-  background-color: #0069d9;
-  border-color: #0069d9;
- 
->>>>>>> d576d7f0f417821b950ce3558d0b3c0de2635871
+
+#footerStyle{
+  text-align: center;
+  margin-top: 25px;
 }
+
+#contactHead{
+  text-align: center;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  font-family: Verdana, sans-serif;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px #8a8a5c;
+}
+.contactButt{
+  text-align: center;
+}
+
+.eachIcon{
+  text-align: center;
+}
+.contactLinks{
+  margin-top: 40px;
+  height: 90px;
+  width: 90px;
+  border-radius: 30%;
+  margin-left: 65px;
+
+  background-color: #F1F1F1 ; 
+  color: #3498DB;
+  box-shadow: 0 5px 15px -5px #00000070;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+.contactLinks i{
+  line-height: 90px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+
+.contactLinks:hover i{
+  transform: scale(1.3);
+  color: #F1F1F1;
+}
+.contactLinks::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background-color: #3498DB;
+  transform:  rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+
+.contactLinks:hover::before{
+  animation: buttonHover 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@keyframes buttonHover{
+  0%{
+  top: 90%;
+  left: -110%;
+  }50%{
+  top: -30%;
+  left: -30%;
+  }100%{
+  top: -10%;
+  left: -10%;
+  }
+}
+
+.contactLinks:hover .contHead{
+  opacity: 1;
+  transform: translateY(30px);
+} 
