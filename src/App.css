@@ -66,10 +66,25 @@ h2{
   overflow: hidden;
   position: fixed;
   top: 0;
+<<<<<<< HEAD
   width: 90%;
 }
 
 
+=======
+  width: 100%;
+}
+
+
+.listStyle{
+  list-style: none;
+  display: flex;
+  padding-left: 45px;
+  background-color: black;
+  opacity: 0.93;
+  font-color: white;
+}
+>>>>>>> d4a080711e7d5f24e471f742ffb0ecd1b640a77d
 
 .naviWrap{
   width: auto;
@@ -87,6 +102,7 @@ h2{
   color: #fff;
   position: fixed;
   height: auto;
+<<<<<<< HEAD
   padding: 15px 15px;
   border-radius: 12px;
 }
@@ -108,6 +124,12 @@ h2{
 }
 
 
+=======
+  float: center;
+  padding: 10px;
+}
+
+>>>>>>> d4a080711e7d5f24e471f742ffb0ecd1b640a77d
 #about{
   background-color: #f5f5ef;
   height: auto;
@@ -122,17 +144,56 @@ h2{
   box-shadow: 2px 2px 3px 3px #2e2e1f;
   opacity: 0.9;
 }
+<<<<<<< HEAD
+=======
+
+.naviList{
+  margin-right: 55px;
+  margin-left: 25px;
+  color: red;
+>>>>>>> d4a080711e7d5f24e471f742ffb0ecd1b640a77d
 
 
 #quailList{
   list-style: none;
 }
 
+<<<<<<< HEAD
+=======
+.naviList{
+  margin-right: 55px;
+  margin-left: 25px;
+  font-size: 30px;
+  text-align: center;
+  color: #ded8e3;
+  display: inline-flex;
+  color: #fff;
+}
+
+>>>>>>> d4a080711e7d5f24e471f742ffb0ecd1b640a77d
 #listPort{
   list-style: none;
   margin-left: 35px;
 }
+<<<<<<< HEAD
 
+=======
+
+#about{
+  background-color: #f5f5ef;
+  height: auto;
+  float: center;
+  position: relative;
+  margin-top: 10%;
+  border: solid 2px #ebebe0;
+  border-radius: 12px;
+  padding: 5px 5px;
+  text-align: center;
+  box-shadow: 2px 2px 3px 3px #2e2e1f;
+  opacity: 0.94;
+
+}
+>>>>>>> d4a080711e7d5f24e471f742ffb0ecd1b640a77d
 
 .portItems{
   background-color: #f5f5ef;
@@ -151,7 +212,10 @@ h2{
   opacity: 0.97;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d4a080711e7d5f24e471f742ffb0ecd1b640a77d
 .projList{
   list-style: none;
 }
@@ -232,11 +296,65 @@ h2{
 
 }
 
+<<<<<<< HEAD
+=======
+#footerStyle{
+  background-color: #f5f5ef;
+  margin: 35px;
+  border: solid 2px #ebebe0;
+  border-radius: 12px;
+  padding: 5px 5px;
+  width: auto;
+  box-shadow: 3px 3px 5px 6px #2e2e1f;
+  opacity: 0.98;
+}
+#footerList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#footerList .links{
+  display: flex;
+  flex: wrap;
+  list-style: none;
+}
+#contactHead{
+  float: center;
+  text-align: center;
+  text-shadow: 2px 3px #9d9da8;
+}
+.liCont{
+  margin-right:15px; 
+}
+.contactLinks{
+  padding: 0px 55px;
+  color: #01000f;
+  display: inline-flex;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.naviList{
+  margin-right: 55px;
+  margin-left: 25px;
+}
+
+>>>>>>> d4a080711e7d5f24e471f742ffb0ecd1b640a77d
 #quailList{
   list-style: none;
 }
 
+<<<<<<< HEAD
 
+=======
+.naviList{
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+>>>>>>> d4a080711e7d5f24e471f742ffb0ecd1b640a77d
 
 #listPort{
   list-style: none;
@@ -419,6 +537,7 @@ margin-bottom: 15px;
   margin: 0 auto;
   padding: 0;
 }
+<<<<<<< HEAD
 
 #footer{
   height: auto;
@@ -505,3 +624,28 @@ margin-bottom: 15px;
   opacity: 1;
   transform: translateY(30px);
 } 
+=======
+
+
+.demoButt{
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  margin-top: 5px;
+}
+
+.demoButt{
+  border-radius: 9.5px;
+  height:  35px;
+  margin-top: 5px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.demoButt:hover{
+  background-color: #0069d9;
+  border-color: #0069d9;
+}
+>>>>>>> d4a080711e7d5f24e471f742ffb0ecd1b640a77d
