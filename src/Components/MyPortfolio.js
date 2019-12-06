@@ -9,15 +9,11 @@ import memeGen from "../Images/memeGen.png";
 import kaliedoScope from "../Images/kaliedoScope.png";
 import Gooey from "../Images/Gooey.png";
 import WorldClock from "../Images/WorldClock.png";
-<<<<<<< HEAD
 import Smiley from "../Images/Smiley.PNG";
-=======
->>>>>>> d4a080711e7d5f24e471f742ffb0ecd1b640a77d
 import Modal from "./popUp.js";
-// import {Button, Header, Title, Footer, Body} from "react-bootstrap";
 
 const Project = props =>
-			 <div  className="container-fluid" className="portItems">
+			 <div  className="portItems">
 				<li className="projList">
 				<h3 className="projectHead">{props.projectHead}</h3>
 				<p className="projectDes">{props.projectDes}</p>
@@ -31,12 +27,9 @@ export default class MyPortfolio extends React.Component{
 	render(){
 		return(
 
-<<<<<<< HEAD
-			<div className="container-fluid" id="myProjects">
-=======
 			<div id="myProjects">
->>>>>>> d4a080711e7d5f24e471f742ffb0ecd1b640a77d
 				<h2 className="sectionHead">Portfolio</h2>
+				
 				<Project
 					projectHead="Mythical Hangman"
 					projectDes="Hangman with a mythical twist!"
@@ -122,7 +115,6 @@ export default class MyPortfolio extends React.Component{
 					title="World Clock"
 					body="This project was originally a normal clock, however I added different Timezones using JavaScript."
 				/>
-<<<<<<< HEAD
 				<Project
 					projectHead="Smiley"
 					projectDes="A fun Smiley Face Animation"
@@ -131,12 +123,9 @@ export default class MyPortfolio extends React.Component{
 					title="Smiley"
 					body="This project uses JavaScript for the eyes animation & CSS with HTML to control the smiley face's mouth."
 				/>
-=======
->>>>>>> d4a080711e7d5f24e471f742ffb0ecd1b640a77d
+			</div>
 
 
-	</div>
 			)
 	}
 }
-

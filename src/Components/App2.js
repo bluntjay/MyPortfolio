@@ -9,7 +9,6 @@ export default class Summary extends React.Component{
 			<div>
 			
 				<div id="sum">
-      			{/*Inserts my components from their imports*/}
       			<App3 />
       			<App4 />
 				</div>

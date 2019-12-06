@@ -10,7 +10,7 @@ function Dialog(props) {
   const handleShow = () => setShow(true);
 
   return (
-    <div className="eachModal"  className="container-md">
+    <div className="eachModal"  >
       <Button  className="modButt" variant="primary" onClick={handleShow}>
         Overview
       </Button>
