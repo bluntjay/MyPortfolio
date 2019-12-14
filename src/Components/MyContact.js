@@ -17,7 +17,7 @@ export default class MyContact extends React.Component{
 		<i className="fab fa-github fa-2x"></i></a>
 
 		
-		<a className="contactLinks" target="_target" href="https://twitter.com/westaydead">
+		<a className="contactLinks" target="_target" href="https://twitter.com/hyperxtend">
 		<i className="fab fa-twitter fa-2x"></i></a>
 
 		
@@ -28,7 +28,7 @@ export default class MyContact extends React.Component{
 		<a className="contactLinks" target="_target" href="https://www.tumblr.com/blog/aliosbourne">
 		<i className="fab fa-tumblr fa-2x"></i></a>
 
-		<a className="contactLinks" target="_target" href="https://www.instagram.com/ialexjoshua/">
+		<a className="contactLinks" target="_target" href="https://www.instagram.com/hyperxtend/">
 		<i className="fab fa-instagram fa-2x"></i></a>
 
 
