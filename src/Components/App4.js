@@ -15,7 +15,7 @@ export default class PrevWork extends React.Component{
 			<p className="jobHead"><u><b>Position:</b></u></p>
 			<div className="jobDiv">
 			<p className="eachJob">Brand Ambassador</p>
-			<p className="eachJob">Design Intern</p>
+			<p className="eachJob">Design Student</p>
 		</div>
 			<p className="jobHead"><u><b>Contact Number:</b></u></p>
 			<div className="jobDiv">
