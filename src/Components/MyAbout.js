@@ -19,7 +19,7 @@ export default class AboutSec extends React.Component {
 		<p>
 		I studied with Life Choices through HyperionDev, working on multiple projects whilst learning various programming languages.
 		I believe in adding value, simplicity & sustainability within projects, teamwork & cooperation. 
-		I am always trying to challenge myself while improving my skills & knowledge.<br/>
+		I am always trying to challenge myself while improving my skills & knowledge.
 		I love learning new concepts & implementing them. I've always been intrigued by the design & mechanics of the universe.
 		I'm well-versed in Designing & my long-term goal is to become a Digital Designer.<br/>
 		</p>

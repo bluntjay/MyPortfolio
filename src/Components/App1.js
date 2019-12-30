@@ -7,18 +7,14 @@ import me from "./Images/me.jpg"
 // Imports my various components that make up the entire page
 import App2 from "./App2.js";
 
-//Class component returns my content to be rendered
-class MyInfo extends React.Component{
+export default class MyInfo extends React.Component{
   render(){
     return(
-      // Stuctures how my content will be displayed 
       <div className="parent" >
       <div id="info">
-    {/*Inserts image of me*/}
       <img id="myPic" src={me} alt="pic-of-me"/>
-    {/*Writes infomation from the object into HTML*/}
+    
       <p className="myInfo" id="myName">{person.name}</p>
-      {/* <p className="myInfo" id="myOcu">{person.ocu}</p> */}
       <p className="myInfo"><u className="refText">Birth Date:</u> 05 January 1999</p>
       <p className="myInfo"><u className="refText">Address:</u> 68 5th Avenue, Belgravia Estate, Athlone</p>
       <p className="myInfo"><u className="refText">High School:</u>  Belgravia Secondary School</p>
@@ -27,11 +23,8 @@ class MyInfo extends React.Component{
       <p className="myInfo"><u className="refText">GitHub:</u>  <a target="_blank" href="https://github.com/bluntjay">@bluntjay</a></p>
       <p className="myInfo"><u className="refText">LinkedIn:</u>  <a target="_blank" href="https://www.linkedin.com/in/alex-joshua-80817018b/">Alex alex-joshua-80817018b</a></p>
       </div>
-    {/*Inserts my component from its import*/}
       <App2 />
       </div>
       )
   }
 }
-// Exports my component above
-export default MyInfo;

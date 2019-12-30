@@ -1,7 +1,6 @@
 import React from 'react';
 
 
-
 export default class MyNavBar extends React.Component {
  
     render() {
@@ -9,6 +8,8 @@ export default class MyNavBar extends React.Component {
 
         <div className="naviWrap" >
 		<nav className="navi" >	
+             <div class="navBar">
+            </div>
         <a className="navLinks" href="#about">About</a>
         <a className="navLinks" href="#portfolio">Portfolio</a>
         <a className="navLinks" href="#myProfile">Profile</a>
@@ -23,3 +24,4 @@ export default class MyNavBar extends React.Component {
 
     }
 }
+

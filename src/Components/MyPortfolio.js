@@ -1,5 +1,5 @@
 import React from 'react';
-import MythHang from "../Images/MythHang.png";
+// import MythHang from "../Images/MythHang.png";
 import RPSLS from "../Images/RPSLS.png";
 import theWeather from "../Images/theWeather.png";
 import prideStore from "../Images/prideStore.png";
@@ -10,6 +10,8 @@ import kaliedoScope from "../Images/kaliedoScope.png";
 import Gooey from "../Images/Gooey.png";
 import WorldClock from "../Images/WorldClock.png";
 import Smiley from "../Images/Smiley.PNG";
+import Snake from "../Images/Snake.PNG";
+import Piano from "../Images/Piano.PNG";
 import Modal from "./popUp.js";
 
 const Project = props =>
@@ -30,14 +32,6 @@ export default class MyPortfolio extends React.Component{
 			<div id="myProjects">
 				<h2 className="sectionHead">Portfolio</h2>
 				
-				<Project
-					projectHead="Mythical Hangman"
-					projectDes="Hangman with a mythical twist!"
-					projectImage={MythHang}
-					projectURL="https://repl.it/@bluntjay/MythicalHangman"
-					title="Mythical Hangman"
-					body="This was one of my 1st games I made in programming. It is just a game of Hangman in Python. View the demo & just click 'Run'. "
-				/>
 				<Project
 					projectHead="Rock, Paper, Scissor!"
 					projectDes="A twist on the classic game"
@@ -68,7 +62,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Guitar Simulator"
 					projectDes="An online functioning guitar"
 					projectImage={guitarSim}
-					projectURL="https:bluntjay.github.io/guitarSimulator/"
+					projectURL="https://bluntjay.github.io/guitarSimulator/"
 					title="Guitar Simulator"
 					body="At first I was playing around with making a Guitar Tuner, however I saw a instrument simulator online & thought that I could convert it into something similar to that. 
  				The project was made with HTML, CSS, Bootstrap & JavaScript."
@@ -80,6 +74,14 @@ export default class MyPortfolio extends React.Component{
 					projectURL="https:bluntjay.github.io/memeGenerator/"
 					title="Meme Generator"
 					body="This application allows users to upload an image & then add text to make their own memes. Created with HTML, CSS & JavaScript."
+				/>
+				<Project
+					projectHead="Piano Simulator"
+					projectDes="Play Piano online"
+					projectImage={Piano}
+					projectURL="https://bluntjay.github.io/pianoJS/"
+					title="Piano Simulator"
+					body="An online Piano simulator where you can use the keyboard to control Piano keys. This project was made with HTML, CSS & JavaScript."
 				/>
 				<Project
 					projectHead="Scientific Calculator"
@@ -109,7 +111,7 @@ export default class MyPortfolio extends React.Component{
 				/>
 				<Project
 					projectHead="World Clock"
-					projectDes="Shows all Timezones"
+					projectDes="Shows All Timezones"
 					projectImage={WorldClock}
 					projectURL="https://bluntjay.github.io/WorldClock/"
 					title="World Clock"
@@ -119,9 +121,17 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Smiley"
 					projectDes="A fun Smiley Face Animation"
 					projectImage={Smiley}
-					projectURL="https://bluntjay.github.io/WorldClock/"
+					projectURL="https://bluntjay.github.io/SmileyAnimation-/"
 					title="Smiley"
 					body="This project uses JavaScript for the eyes animation & CSS with HTML to control the smiley face's mouth."
+				/>
+				<Project
+					projectHead="Snake"
+					projectDes="A good-ole game of Snake"
+					projectImage={Snake}
+					projectURL="https://bluntjay.github.io/WorldClock/"
+					title="Snake"
+					body="A responsive arcade classic game of Snake, where as the snake gets longer it gets faster aswell. Created using HTML, CSS & JavaScript"
 				/>
 			</div>
 

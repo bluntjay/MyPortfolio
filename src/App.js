@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import MyNavBar from "./Components/MyNavBar"
-import MyAbout from "./Components/MyAbout"
-import MyPortfolio from "./Components/MyPortfolio"
-import MySkills from "./Components/MySkills"
-import MyContact from "./Components/MyContact"
-import LandingPage from "./Components/LandingPage"
-import MyProfile from "./Components/MyProfile"
+import MyNavBar from "./Components/MyNavBar";
+import MyAbout from "./Components/MyAbout";
+import MyPortfolio from "./Components/MyPortfolio";
+import MySkills from "./Components/MySkills";
+import MyContact from "./Components/MyContact";
+import LandingPage from "./Components/LandingPage";
+import MyProfile from "./Components/MyProfile";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
