@@ -1,11 +1,11 @@
 import React from 'react';
-// import MythHang from "../Images/MythHang.png";
+
 import RPSLS from "../Images/RPSLS.png";
 import theWeather from "../Images/theWeather.png";
 import prideStore from "../Images/prideStore.png";
 import guitarSim from "../Images/guitarSim.png";
 import calculator from "../Images/calculator.png";
-import memeGen from "../Images/memeGen.png";
+import ToDo from "../Images/ToDoList.PNG";
 import kaliedoScope from "../Images/kaliedoScope.png";
 import Gooey from "../Images/Gooey.png";
 import WorldClock from "../Images/WorldClock.png";
@@ -68,12 +68,12 @@ export default class MyPortfolio extends React.Component{
  				The project was made with HTML, CSS, Bootstrap & JavaScript."
 				/>
 				<Project
-					projectHead="Meme Generator"
-					projectDes="An App to make your own memes"
-					projectImage={memeGen}
-					projectURL="https:bluntjay.github.io/memeGenerator/"
-					title="Meme Generator"
-					body="This application allows users to upload an image & then add text to make their own memes. Created with HTML, CSS & JavaScript."
+					projectHead="To-Do List"
+					projectDes="An application that keeps track of your tasks"
+					projectImage={ToDo}
+					projectURL="https://bluntjay.github.io/ToDoList/"
+					title="To-Do List"
+					body="This application allows users to enter tasks & track their progress. Created with HTML, CSS & jQuery."
 				/>
 				<Project
 					projectHead="Piano Simulator"

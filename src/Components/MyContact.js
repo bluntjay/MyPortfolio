@@ -24,11 +24,14 @@ export default class MyContact extends React.Component{
 		<a className="contactLinks" target="_target" href="https://aboutme.google.com">
 		<i className="fab fa-google-plus-g fa-2x"></i></a>
 
+		<a className="contactLinks" target="_target" href="https://www.behance.net/alexjoshua1">
+		<i class="fab fa-behance"></i></a>
+
 		
 		<a className="contactLinks" target="_target" href="https://www.tumblr.com/blog/aliosbourne">
 		<i className="fab fa-tumblr fa-2x"></i></a>
 
-		<a className="contactLinks" target="_target" href="https://www.instagram.com/hyperxtend/">
+		<a className="contactLinks" target="_target" href="https://www.instagram.com/ialexjoshua/">
 		<i className="fab fa-instagram fa-2x"></i></a>
 
 
