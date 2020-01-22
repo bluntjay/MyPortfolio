@@ -14,7 +14,7 @@ class MyInfo extends React.Component{
       <div className="parent">
       <div id="info">
     {/*Inserts image of me*/}
-      <img src={me} alt="pic-of-me"/>
+      <img className="myPic" src={me} alt="pic-of-me"/>
     {/*Writes infomation from the object into HTML*/}
       <p className="myInfo" id="myName">Alex Joshua</p>
       <p className="myInfo" id="myOcu"> Aspiring Digital Designer <br/> Web Developer</p>

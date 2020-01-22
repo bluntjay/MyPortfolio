@@ -10,29 +10,26 @@ export default class PrevWork extends React.Component{
 			<p className="jobHead"><u><b>Company:</b></u></p>
 			<div className="jobDiv">
 			<p className="eachJob">Perfect Solutions</p>
-			<p className="eachJob">Design Academy of Fashion</p>
 		</div>
 			<p className="jobHead"><u><b>Position:</b></u></p>
 			<div className="jobDiv">
 			<p className="eachJob">Brand Ambassador</p>
-			<p className="eachJob">Design Student</p>
+	
 		</div>
 			<p className="jobHead"><u><b>Contact Number:</b></u></p>
 			<div className="jobDiv">
 			<p className="eachJob">021 797 3858</p>
-			<p className="eachJob">021 448 9379</p>
+		
 			</div>
 
 		{/*Adds a link to the company website*/}
 			<p className="jobHead"><u><b>Website:</b></u></p>
 			<div className="jobDiv">
 			<p className="eachJob"><a href="https://perfectsolutionsa.co.za/contact/">Perfect Solutions</a></p>
-			<p className="eachJob"><a href="https://designacademyoffashion.com/">Design Academy of Fashion</a></p>
 		</div>
 			<p className="jobHead"><u><b>Person Of Reference:</b></u></p>
 			<div className="jobDiv">
 			<p className="eachJob">Mishka Majiet</p>
-			<p className="eachJob">Irene Gasser</p>
 		</div>
 		</div>
 		</div>

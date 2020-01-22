@@ -7,6 +7,7 @@ import MySkills from "./Components/MySkills";
 import MyContact from "./Components/MyContact";
 import LandingPage from "./Components/LandingPage";
 import MyProfile from "./Components/MyProfile";
+import Carosel from "./Components/Carosel.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -23,6 +24,7 @@ function App() {
       <MyAbout/>
       <MyPortfolio/>
       <MyProfile id="profile"/>
+      <Carosel/>
       <MySkills/>
       <MyContact/>
     </div>

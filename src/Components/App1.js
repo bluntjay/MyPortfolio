@@ -12,7 +12,7 @@ export default class MyInfo extends React.Component{
     return(
       <div className="parent" >
       <div id="info">
-      <img id="myPic" src={me} alt="pic-of-me"/>
+      <img className="myPic" src={me} alt="pic-of-me"/>
     
       <p className="myInfo" id="myName">{person.name}</p>
       <p className="myInfo"><u className="refText">Birth Date:</u> 05 January 1999</p>

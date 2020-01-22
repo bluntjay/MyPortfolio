@@ -8,11 +8,12 @@ export default class MyNavBar extends React.Component {
 
         <div className="naviWrap" >
 		<nav className="navi" >	
-             <div class="navBar">
+             <div className="navBar">
             </div>
         <a className="navLinks" href="#about">About</a>
         <a className="navLinks" href="#portfolio">Portfolio</a>
         <a className="navLinks" href="#myProfile">Profile</a>
+        <a className="navLinks" href="#myDesigns">Designs</a>
         <a className="navLinks" href="#skills">Skills</a>
         <a className="navLinks" href="#contact">Contact</a>
         </nav>
