@@ -36,7 +36,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Rock, Paper, Scissor!"
 					projectDes="A twist on the classic game"
 					projectImage={RPSLS}
-					projectURL="https:salty-retreat-42685.herokuapp.com/"
+					projectURL="//salty-retreat-42685.herokuapp.com/"
 					title="Rock, Paper, Scissor!"
 					body="This game was inspired by the TV series Big Bang Theory. The game is just like the normal Rock, Paper, Scissor. However it adds 2 new options Lizard & Spock thus adding a bit of difficulty to the game. 
  				This was one of my Capstone Projects in React JS while doing my Coding Course with HyperionDev through Life Choices."
@@ -45,7 +45,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Wheather The Weather"
 					projectDes="My 1st Weather App"
 					projectImage={theWeather}
-					projectURL="https:wheather-the-weather.herokuapp.com/"
+					projectURL="//wheather-the-weather.herokuapp.com/"
 					title="heather The Weather"
 					body="This weather application uses an API to fetch it's infomation.
 					 It retrieves the current Weather conditions in a City & was made using ReactJS"
@@ -54,7 +54,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="E-commerce Website"
 					projectDes="Pride Store"
 					projectImage={prideStore}
-					projectURL="https:bluntjay.github.io/PrideShop/"
+					projectURL="//bluntjay.github.io/PrideShop/"
 					title="My Pride Store"
 					body="This is my first online shop I made. The design of the website was made with HTML & CSS, while with the functionality I used JavaScript & jQuery. "
 				/>
@@ -62,16 +62,16 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Guitar Simulator"
 					projectDes="An online functioning guitar"
 					projectImage={guitarSim}
-					projectURL="https://bluntjay.github.io/guitarSimulator/"
+					projectURL="//bluntjay.github.io/guitarSimulator/"
 					title="Guitar Simulator"
 					body="At first I was playing around with making a Guitar Tuner, however I saw a instrument simulator online & thought that I could convert it into something similar to that. 
  				The project was made with HTML, CSS, Bootstrap & JavaScript."
 				/>
 				<Project
 					projectHead="To-Do List"
-					projectDes="An application that keeps track of your tasks"
+					projectDes="Keep track of your tasks"
 					projectImage={ToDo}
-					projectURL="https://bluntjay.github.io/ToDoList/"
+					projectURL="//bluntjay.github.io/ToDoList/"
 					title="To-Do List"
 					body="This application allows users to enter tasks & track their progress. Created with HTML, CSS & jQuery."
 				/>
@@ -79,7 +79,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Piano Simulator"
 					projectDes="Play Piano online"
 					projectImage={Piano}
-					projectURL="https://bluntjay.github.io/pianoJS/"
+					projectURL="//bluntjay.github.io/pianoJS/"
 					title="Piano Simulator"
 					body="An online Piano simulator where you can use the keyboard to control Piano keys. This project was made with HTML, CSS & JavaScript."
 				/>
@@ -87,7 +87,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Scientific Calculator"
 					projectDes="A simple scientific calculator"
 					projectImage={calculator}
-					projectURL="https:bluntjay.github.io/scientificCalc/"
+					projectURL="//bluntjay.github.io/scientificCalc/"
 					title="Scientific Calculator"
 					body="This project is an updated version of my Capstone Project. 
 					It started off as a normal calculator, then as I kept working on it I added a few new options & functions."
@@ -96,7 +96,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Kaliedoscope"
 					projectDes="Turn images into a Kaliedoscope!"
 					projectImage={kaliedoScope}
-					projectURL="https:bluntjay.github.io/myKaleidoscope/"
+					projectURL="//bluntjay.github.io/myKaleidoscope/"
 					title="Kaliedoscope"
 					body="An application that turns images into a Kaleidoscope.
 					 You control the image's colours & positions by moving the mouse over the Kaleidoscope. This side project of mine was made with HTML, CSS & JavaScript."
@@ -105,7 +105,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Gooey"
 					projectDes="A interactive background animation"
 					projectImage={Gooey}
-					projectURL="https://bluntjay.github.io/GooeyAni"
+					projectURL="//bluntjay.github.io/GooeyAni/"
 					title="Gooey"
 					body="A background animation with functionality. Created using HTML, CSS & jQuery."
 				/>
@@ -113,7 +113,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="World Clock"
 					projectDes="Shows All Timezones"
 					projectImage={WorldClock}
-					projectURL="https://bluntjay.github.io/WorldClock/"
+					projectURL="//bluntjay.github.io/WorldClock/"
 					title="World Clock"
 					body="This project was originally a normal clock, however I added different Timezones using JavaScript."
 				/>
@@ -121,7 +121,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Smiley"
 					projectDes="A fun Smiley Face Animation"
 					projectImage={Smiley}
-					projectURL="https://bluntjay.github.io/SmileyAnimation-/"
+					projectURL="//bluntjay.github.io/SmileyAnimation-/"
 					title="Smiley"
 					body="This project uses JavaScript for the eyes animation & CSS with HTML to control the smiley face's mouth."
 				/>
@@ -129,7 +129,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Snake"
 					projectDes="A good-ole game of Snake"
 					projectImage={Snake}
-					projectURL="https://bluntjay.github.io/WorldClock/"
+					projectURL="//bluntjay.github.io/WorldClock/"
 					title="Snake"
 					body="A responsive arcade classic game of Snake, where as the snake gets longer it gets faster aswell. Created using HTML, CSS & JavaScript"
 				/>
