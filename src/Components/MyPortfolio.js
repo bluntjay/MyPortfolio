@@ -2,7 +2,7 @@ import React from 'react';
 
 import RPSLS from "../Images/RPSLS.png";
 import theWeather from "../Images/theWeather.png";
-import prideStore from "../Images/prideStore.png";
+import ECom from "../Images/E-Com.jpg";
 import guitarSim from "../Images/guitarSim.png";
 import calculator from "../Images/calculator.png";
 import ToDo from "../Images/ToDoList.PNG";
@@ -52,11 +52,11 @@ export default class MyPortfolio extends React.Component{
 				/>
 				<Project
 					projectHead="E-commerce Website"
-					projectDes="Pride Store"
-					projectImage={prideStore}
-					projectURL="//bluntjay.github.io/PrideShop/"
-					title="My Pride Store"
-					body="This is my first online shop I made. The design of the website was made with HTML & CSS, while with the functionality I used JavaScript & jQuery. "
+					projectDes="Fitness Store"
+					projectImage={ECom}
+					projectURL="//luma-e-com.herokuapp.com/"
+					title="Luma Fitness Store"
+					body="A fully responsive store with image sliders, finding colours & cart functionality. Made using ReactJS & reac-bootstrap"
 				/>
 				<Project
 					projectHead="Guitar Simulator"
