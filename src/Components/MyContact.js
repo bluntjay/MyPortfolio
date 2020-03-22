@@ -13,7 +13,7 @@ export default class MyContact extends React.Component{
 		<a className="contactLinks" target="_target" href="https://www.linkedin.com/in/alex-joshua-80817018b/">
 		<i className="fab fa-linkedin-in fa-2x"></i></a>
 
-		<a className="contactLinks" target="_target" href="https://github.com/bluntjay">
+		<a className="contactLinks" target="_target" href="https://github.com/hyperxtend">
 		<i className="fab fa-github fa-2x"></i></a>
 
 		

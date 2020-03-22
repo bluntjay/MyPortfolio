@@ -8,10 +8,17 @@
  h2{
      text-decoration: underline;
 }
+.landingDiv{
+    text-align: center;
+}
+.spinners {
+    margin-top: 2%;
+    transform: scale(2);
+}
  #introText{
      text-align: center;
      text-decoration: underline;
-     font-family: "Times New Roman", Times, serif;
+     font-family: 'Righteous', sans-serif;
      text-shadow: 2px 2px 8px #ebebe0;
      font-size: 120px;
      padding-top: 15%;

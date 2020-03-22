@@ -20,7 +20,7 @@ export default class MyInfo extends React.Component{
       <p className="myInfo"><u className="refText">High School:</u>  Belgravia Secondary School</p>
       <p className="myInfo"><u className="refText">Tertiary Education:</u> HyperionDev - Life Choices</p>
       <p className="myInfo"><u className="refText">E-mail:</u> ialexjoshua@gmail.com</p>
-      <p className="myInfo"><u className="refText">GitHub:</u>  <a target="_blank" href="https://github.com/bluntjay">@bluntjay</a></p>
+      <p className="myInfo"><u className="refText">GitHub:</u>  <a target="_blank" href="https://github.com/hyperxtend">@hyperxtend</a></p>
       <p className="myInfo"><u className="refText">LinkedIn:</u>  <a target="_blank" href="https://www.linkedin.com/in/alex-joshua-80817018b/">Alex alex-joshua-80817018b</a></p>
       </div>
       <App2 />

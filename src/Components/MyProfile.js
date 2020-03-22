@@ -23,7 +23,7 @@ class MyInfo extends React.Component{
       <u className="refText">High School:</u><p className="myInfo">Belgravia Secondary School</p>
       <u className="refText">Tertiary Education:</u><p className="myInfo">HyperionDev - Life Choices</p>
       <u className="refText">E-mail:</u><p className="myInfo"><a target="_blank" rel="noopener noreferrer" href="mailto:ialexjoshua@gmail.com">ialexjoshua@gmail.com</a></p>
-      <u className="refText">GitHub:</u><p className="myInfo"><a target="_blank" rel="noopener noreferrer" href="https://github.com/bluntjay">@bluntjay</a></p>
+      <u className="refText">GitHub:</u><p className="myInfo"><a target="_blank" rel="noopener noreferrer" href="https://github.com/hyperxtend">@hyperxtend</a></p>
       <u className="refText">LinkedIn:</u><p className="myInfo"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alex-joshua-80817018b/">Alex Joshua</a></p>
       </div>
     {/*Inserts my component from its import*/}

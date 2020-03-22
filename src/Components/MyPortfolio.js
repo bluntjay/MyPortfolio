@@ -2,7 +2,7 @@ import React from 'react';
 
 import RPSLS from "../Images/RPSLS.png";
 import theWeather from "../Images/theWeather.png";
-import ECom from "../Images/E-Com.jpg";
+import ECom from "../Images/E-Com.png";
 import guitarSim from "../Images/guitarSim.png";
 import calculator from "../Images/calculator.png";
 import ToDo from "../Images/ToDoList.PNG";
@@ -62,7 +62,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Guitar Simulator"
 					projectDes="An online functioning guitar"
 					projectImage={guitarSim}
-					projectURL="//bluntjay.github.io/guitarSimulator/"
+					projectURL="//hyperxtend.github.io/guitarSimulator/"
 					title="Guitar Simulator"
 					body="At first I was playing around with making a Guitar Tuner, however I saw a instrument simulator online & thought that I could convert it into something similar to that. 
  				The project was made with HTML, CSS, Bootstrap & JavaScript."
@@ -71,7 +71,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="To-Do List"
 					projectDes="Keep track of your tasks"
 					projectImage={ToDo}
-					projectURL="//bluntjay.github.io/ToDoList/"
+					projectURL="//hyperxtend.github.io/ToDoList/"
 					title="To-Do List"
 					body="This application allows users to enter tasks & track their progress. Created with HTML, CSS & jQuery."
 				/>
@@ -79,7 +79,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Piano Simulator"
 					projectDes="Play Piano online"
 					projectImage={Piano}
-					projectURL="//bluntjay.github.io/pianoJS/"
+					projectURL="//hyperxtend.github.io/pianoJS/"
 					title="Piano Simulator"
 					body="An online Piano simulator where you can use the keyboard to control Piano keys. This project was made with HTML, CSS & JavaScript."
 				/>
@@ -87,7 +87,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Scientific Calculator"
 					projectDes="A simple scientific calculator"
 					projectImage={calculator}
-					projectURL="//bluntjay.github.io/scientificCalc/"
+					projectURL="//hyperxtend.github.io/scientificCalc/"
 					title="Scientific Calculator"
 					body="This project is an updated version of my Capstone Project. 
 					It started off as a normal calculator, then as I kept working on it I added a few new options & functions."
@@ -96,7 +96,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Kaliedoscope"
 					projectDes="Turn images into a Kaliedoscope!"
 					projectImage={kaliedoScope}
-					projectURL="//bluntjay.github.io/myKaleidoscope/"
+					projectURL="//hyperxtend.github.io/myKaleidoscope/"
 					title="Kaliedoscope"
 					body="An application that turns images into a Kaleidoscope.
 					 You control the image's colours & positions by moving the mouse over the Kaleidoscope. This side project of mine was made with HTML, CSS & JavaScript."
@@ -105,7 +105,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Gooey"
 					projectDes="A interactive background animation"
 					projectImage={Gooey}
-					projectURL="//bluntjay.github.io/GooeyAni/"
+					projectURL="//hyperxtend.github.io/GooeyAni/"
 					title="Gooey"
 					body="A background animation with functionality. Created using HTML, CSS & jQuery."
 				/>
@@ -113,7 +113,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="World Clock"
 					projectDes="Shows All Timezones"
 					projectImage={WorldClock}
-					projectURL="//bluntjay.github.io/WorldClock/"
+					projectURL="//hyperxtend.github.io/WorldClock/"
 					title="World Clock"
 					body="This project was originally a normal clock, however I added different Timezones using JavaScript."
 				/>
@@ -121,7 +121,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Smiley"
 					projectDes="A fun Smiley Face Animation"
 					projectImage={Smiley}
-					projectURL="//bluntjay.github.io/SmileyAnimation-/"
+					projectURL="//hyperxtend.github.io/SmileyAnimation-/"
 					title="Smiley"
 					body="This project uses JavaScript for the eyes animation & CSS with HTML to control the smiley face's mouth."
 				/>
@@ -129,7 +129,7 @@ export default class MyPortfolio extends React.Component{
 					projectHead="Snake"
 					projectDes="A good-ole game of Snake"
 					projectImage={Snake}
-					projectURL="//bluntjay.github.io/WorldClock/"
+					projectURL="//hyperxtend.github.io/WorldClock/"
 					title="Snake"
 					body="A responsive arcade classic game of Snake, where as the snake gets longer it gets faster aswell. Created using HTML, CSS & JavaScript"
 				/>
