@@ -14,39 +14,41 @@ import adobePS from '../../Images/adobePS.jpg';
 import AdobeIll from '../../Images/AdobeIll.png';
 import Canva from '../../Images/Canva.jpg';
 import BootStrap from '../../Images/bootstrapLogo.jpg';
+import AfterEffects from '../../Images/aftereffects.png';
 
-const Skill = props => (
-	<div className="proSkills">
-		<h3 className="skillHead">{props.name}</h3>
-		<img alt="skillsIcon" className="imgSkills" src={props.image} />
-	</div>
+import './component.css';
+
+const Skill = (props) => (
+  <div className="skill">
+    <h3 className="skillHead">{props.name}</h3>
+    <img alt="skillsIcon" className="imgSkills" src={props.image} />
+  </div>
 );
 
 export default class MySkills extends React.Component {
-	render() {
-		return (
-			<div id="skills">
-				<h2 className="sectionHead">Skills</h2>
-				<div></div>
-				<h3 className="skillHead">These are the programming langauges I use:</h3>
-				<div className="skillsDiv">
-					<Skill name="Python" image={Python} />
-					<Skill name="HTML" image={HTML} />
-					<Skill name="CSS" image={CSS} />
-					<Skill name="BootStrap" image={BootStrap} />
-					<Skill name="JavaScript" image={JS} />
-					<Skill name="jQuery" image={jQuery} />
-					<Skill name="ReactJS" image={ReactJS} />
-					<Skill name="ExpressJS" image={Express} />
-					<Skill name="Node" image={Node} />
-					<Skill name="PHP" image={PHP} />
-					<Skill name="Git" image={Git} />
-					<Skill name="Microsoft" image={microSoftLogo} />
-					<Skill name="Adobe PS" image={adobePS} />
-					<Skill name="Illustrator" image={AdobeIll} />
-					<Skill name="Canva" image={Canva} />
-				</div>
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div id="skills">
+        <h2 className="sectionHead">Skills</h2>
+        <div className="skillsDiv">
+          <Skill name="Python" image={Python} />
+          <Skill name="HTML" image={HTML} />
+          <Skill name="CSS" image={CSS} />
+          <Skill name="BootStrap" image={BootStrap} />
+          <Skill name="JavaScript" image={JS} />
+          <Skill name="jQuery" image={jQuery} />
+          <Skill name="ReactJS" image={ReactJS} />
+          <Skill name="ExpressJS" image={Express} />
+          <Skill name="Node" image={Node} />
+          <Skill name="PHP" image={PHP} />
+          <Skill name="Git" image={Git} />
+          <Skill name="Microsoft" image={microSoftLogo} />
+          <Skill name="Adobe PS" image={adobePS} />
+          <Skill name="Illustrator" image={AdobeIll} />
+          <Skill name="Adobe AE" image={AfterEffects} />
+          <Skill name="Canva" image={Canva} />
+        </div>
+      </div>
+    );
+  }
 }

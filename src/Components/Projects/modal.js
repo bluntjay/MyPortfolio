@@ -1,21 +1,23 @@
+import React from 'react';
+import { Button, Modal } from 'react-bootstrap';
 
-import React from "react";
-import {Button, Header, Title, Footer, Body, Modal} from "react-bootstrap";
-
-
-function Dialog(props) {
-
+const OverviewModal = (props) => {
   const [show, setShow] = React.useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
   return (
-    <div className="eachModal"  >
-      <Button  className="modButt" variant="primary" onClick={handleShow}>
+    <div>
+      <Button className="modButt" variant="primary" onClick={handleShow}>
         Overview
       </Button>
 
-      <Modal show={show} onHide={handleClose} animation={false}>
+      <Modal
+        className="modalOverview"
+        show={show}
+        onHide={handleClose}
+        animation={false}
+      >
         <Modal.Header closeButton>
           <Modal.Title>{props.title}</Modal.Title>
         </Modal.Header>
@@ -23,7 +25,6 @@ function Dialog(props) {
       </Modal>
     </div>
   );
-}
+};
 
-export default Dialog;
- 
+export default OverviewModal;

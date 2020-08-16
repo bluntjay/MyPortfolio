@@ -1,0 +1,13 @@
+.CarouselDiv {
+  margin-left: 35%;
+  width: 30%;
+  text-align: center;
+}
+.carousel-item {
+  text-align: center;
+  height: auto;
+}
+.slideImage {
+  width: 100%;
+  height: 50vh;
+}

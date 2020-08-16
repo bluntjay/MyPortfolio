@@ -1,28 +1,31 @@
 import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 
+import './component.css';
 
-export default class MyNavBar extends React.Component {
- 
-    render() {
-        return (
+const NavBar = () => (
+  <Nav>
+    <Navbar bg="dark" fixed="top" variant="dark" className="navigationBar">
+      <Nav.Link className="navLinks" href="#about">
+        About
+      </Nav.Link>
+      <Nav.Link className="navLinks" href="#projects">
+        Projects
+      </Nav.Link>
+      <Nav.Link className="navLinks" href="#myProfile">
+        Profile
+      </Nav.Link>
+      <Nav.Link className="navLinks" href="#myDesigns">
+        Designs
+      </Nav.Link>
+      <Nav.Link className="navLinks" href="#skills">
+        Skills
+      </Nav.Link>
+      <Nav.Link className="navLinks" href="#contact">
+        Contact
+      </Nav.Link>
+    </Navbar>
+  </Nav>
+);
 
-        <div className="naviWrap" >
-		<nav className="navi" >	
-             <div className="navBar">
-            </div>
-        <a className="navLinks" href="#about">About</a>
-        <a className="navLinks" href="#portfolio">Portfolio</a>
-        <a className="navLinks" href="#myProfile">Profile</a>
-        <a className="navLinks" href="#myDesigns">Designs</a>
-        <a className="navLinks" href="#skills">Skills</a>
-        <a className="navLinks" href="#contact">Contact</a>
-        </nav>
-    	</div>
-        	
-
-
-        )
-
-    }
-}
-
+export default NavBar;

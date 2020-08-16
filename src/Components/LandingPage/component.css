@@ -1,0 +1,12 @@
+.landingDiv {
+  text-align: center;
+}
+
+#introText {
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Righteous', sans-serif;
+  text-shadow: 2px 2px 8px #ebebe0;
+  font-size: 120px;
+  padding-top: 15%;
+}

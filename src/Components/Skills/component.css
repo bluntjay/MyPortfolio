@@ -1,0 +1,36 @@
+#skills {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.skill {
+  background-color: #ffffff;
+  display: inline-flex;
+  width: 150px;
+  height: 150px;
+  margin-left: 70px;
+  box-shadow: 3px 3px 5px 6px #2e2e1f;
+  opacity: 0.98;
+  margin-top: 25px;
+}
+.imgSkills {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  position: absolute;
+}
+.skillHead {
+  background-color: #2e2e1f;
+  color: #fff;
+  opacity: 0;
+  transition: all 0.2s;
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.skill:hover .skillHead {
+  opacity: 1;
+  transform: translateY(-30px);
+}

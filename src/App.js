@@ -11,23 +11,23 @@ import Designs from './Components/Designs';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-	const [isLanding, setIsLanding] = React.useState(true);
+  const [isLanding, setIsLanding] = React.useState(true);
 
-	if (isLanding) {
-		setTimeout(() => setIsLanding(false), 1800);
-		return <LandingPage />;
-	}
-	return (
-		<div>
-			<NavBar />
-			<About />
-			<Projects />
-			<Profile />
-			<Designs />
-			<Skills />
-			<Contact />
-		</div>
-	);
+  if (isLanding) {
+    setTimeout(() => setIsLanding(false), 1800);
+    return <LandingPage />;
+  }
+  return (
+    <div>
+      <NavBar />
+      <About />
+      <Projects />
+      <Designs />
+      <Profile />
+      <Skills />
+      <Contact />
+    </div>
+  );
 }
 
 export default App;
