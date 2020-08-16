@@ -1,37 +1,39 @@
 import React from 'react';
 
-import RPSLS from "../Images/RPSLS.png";
-import theWeather from "../Images/theWeather.png";
-import ECom from "../Images/E-Com.png";
-import guitarSim from "../Images/guitarSim.png";
-import calculator from "../Images/calculator.png";
-import ToDo from "../Images/ToDoList.PNG";
-import kaliedoScope from "../Images/kaliedoScope.png";
-import Gooey from "../Images/Gooey.png";
-import WorldClock from "../Images/WorldClock.png";
-import Smiley from "../Images/Smiley.PNG";
-import Snake from "../Images/Snake.PNG";
-import Piano from "../Images/Piano.PNG";
-import Modal from "./popUp.js";
+import RPSLS from '../../Images/RPSLS.png';
+import theWeather from '../../Images/theWeather.png';
+import ECom from '../../Images/E-Com.png';
+import guitarSim from '../../Images/guitarSim.png';
+import calculator from '../../Images/calculator.png';
+import ToDo from '../../Images/ToDoList.PNG';
+import kaliedoScope from '../../Images/kaliedoScope.png';
+import Gooey from '../../Images/Gooey.png';
+import WorldClock from '../../Images/WorldClock.png';
+import Smiley from '../../Images/Smiley.PNG';
+import Snake from '../../Images/Snake.PNG';
+import Piano from '../../Images/Piano.PNG';
+import Modal from './popUp.js';
 
-const Project = props =>
-			 <div  className="portItems">
-				<li className="projList">
-				<h3 className="projectHead">{props.projectHead}</h3>
-				<p className="projectDes">{props.projectDes}</p>
-				<img alt="projectImage" className="portImg" src={props.projectImage}/></li>
-				<a target="_blank" rel="noopener noreferrer" href={props.projectURL}>
-				<button className="demoButt btn btn-primary">View Demo</button></a>
-				<Modal title={props.title} body={props.body}/>
-			</div>
+const Project = props => (
+	<div className="portItems">
+		<li className="projList">
+			<h3 className="projectHead">{props.projectHead}</h3>
+			<p className="projectDes">{props.projectDes}</p>
+			<img alt="projectImage" className="portImg" src={props.projectImage} />
+		</li>
+		<a target="_blank" rel="noopener noreferrer" href={props.projectURL}>
+			<button className="demoButt btn btn-primary">View Demo</button>
+		</a>
+		<Modal title={props.title} body={props.body} />
+	</div>
+);
 
-export default class MyPortfolio extends React.Component{
-	render(){
-		return(
-
+export default class MyPortfolio extends React.Component {
+	render() {
+		return (
 			<div id="myProjects">
 				<h2 className="sectionHead">Portfolio</h2>
-				
+
 				<Project
 					projectHead="Rock, Paper, Scissor!"
 					projectDes="A twist on the classic game"
@@ -94,11 +96,11 @@ export default class MyPortfolio extends React.Component{
 				/>
 				<Project
 					projectHead="Kaliedoscope"
-					projectDes="Turn images into a Kaliedoscope!"
+					projectDes="Turn ../Images into a Kaliedoscope!"
 					projectImage={kaliedoScope}
 					projectURL="//hyperxtend.github.io/myKaleidoscope/"
 					title="Kaliedoscope"
-					body="An application that turns images into a Kaleidoscope.
+					body="An application that turns ../Images into a Kaleidoscope.
 					 You control the image's colours & positions by moving the mouse over the Kaleidoscope. This side project of mine was made with HTML, CSS & JavaScript."
 				/>
 				<Project
@@ -134,8 +136,6 @@ export default class MyPortfolio extends React.Component{
 					body="A responsive arcade classic game of Snake, where as the snake gets longer it gets faster aswell. Created using HTML, CSS & JavaScript"
 				/>
 			</div>
-
-
-			)
+		);
 	}
 }

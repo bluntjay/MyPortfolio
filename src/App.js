@@ -1,35 +1,33 @@
 import React from 'react';
 import './App.css';
-import MyNavBar from "./Components/MyNavBar";
-import MyAbout from "./Components/MyAbout";
-import MyPortfolio from "./Components/MyPortfolio";
-import MySkills from "./Components/MySkills";
-import MyContact from "./Components/MyContact";
-import LandingPage from "./Components/LandingPage";
-import MyProfile from "./Components/MyProfile";
-import Carosel from "./Components/Carosel.js";
+import NavBar from './Components/NavBar';
+import About from './Components/About';
+import Projects from './Components/Projects';
+import Skills from './Components/Skills';
+import Contact from './Components/Contact';
+import LandingPage from './Components/LandingPage';
+import Profile from './Components/Profile';
+import Designs from './Components/Designs';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 function App() {
-	const [isLanding, setIsLanding] = React.useState(true)
+	const [isLanding, setIsLanding] = React.useState(true);
 
-	if(isLanding) {
-		setTimeout(() => setIsLanding(false), 1800)
-		return <LandingPage/>
+	if (isLanding) {
+		setTimeout(() => setIsLanding(false), 1800);
+		return <LandingPage />;
 	}
-  return (
-    <div>
-      <MyNavBar/>
-      <MyAbout/>
-      <MyPortfolio/>
-      <MyProfile id="profile"/>
-      <Carosel/>
-      <MySkills/>
-      <MyContact/>
-    </div>
-    
-  );
+	return (
+		<div>
+			<NavBar />
+			<About />
+			<Projects />
+			<Profile />
+			<Designs />
+			<Skills />
+			<Contact />
+		</div>
+	);
 }
 
 export default App;
